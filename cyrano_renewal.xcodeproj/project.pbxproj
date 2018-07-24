@@ -7,14 +7,24 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		464537161D81FC4670E72F89 /* Pods_cyrano_renewalTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A5774D7902505F833378007B /* Pods_cyrano_renewalTests.framework */; };
+		4C1EE73620C5834500E7D41B /* Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C1EE73520C5834500E7D41B /* Extension.swift */; };
+		4C1EE73920C583A200E7D41B /* NetworkCallback.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C1EE73820C583A200E7D41B /* NetworkCallback.swift */; };
+		4C1EE73C20C5842800E7D41B /* NetworkModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C1EE73B20C5842800E7D41B /* NetworkModel.swift */; };
+		4C1EE73E20C5844C00E7D41B /* LoginModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C1EE73D20C5844C00E7D41B /* LoginModel.swift */; };
+		4C1EE74320C5848300E7D41B /* LoginMessageVO.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C1EE74220C5848300E7D41B /* LoginMessageVO.swift */; };
+		4C1EE74520C584AC00E7D41B /* LoginResultVO.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C1EE74420C584AC00E7D41B /* LoginResultVO.swift */; };
 		4CB54A8D20C2E10F00910BC1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CB54A8C20C2E10F00910BC1 /* AppDelegate.swift */; };
-		4CB54A8F20C2E10F00910BC1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CB54A8E20C2E10F00910BC1 /* ViewController.swift */; };
 		4CB54A9220C2E10F00910BC1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4CB54A9020C2E10F00910BC1 /* Main.storyboard */; };
 		4CB54A9520C2E10F00910BC1 /* cyrano_renewal.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 4CB54A9320C2E10F00910BC1 /* cyrano_renewal.xcdatamodeld */; };
 		4CB54A9720C2E11100910BC1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4CB54A9620C2E11100910BC1 /* Assets.xcassets */; };
 		4CB54A9A20C2E11100910BC1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4CB54A9820C2E11100910BC1 /* LaunchScreen.storyboard */; };
 		4CB54AA520C2E11100910BC1 /* cyrano_renewalTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CB54AA420C2E11100910BC1 /* cyrano_renewalTests.swift */; };
 		4CB54AB020C2E11100910BC1 /* cyrano_renewalUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CB54AAF20C2E11100910BC1 /* cyrano_renewalUITests.swift */; };
+		4CB54AC020C2E5D400910BC1 /* Login.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4CB54ABF20C2E5D400910BC1 /* Login.storyboard */; };
+		4CB54AC220C2E5F300910BC1 /* LoginVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CB54AC120C2E5F300910BC1 /* LoginVC.swift */; };
+		7317AC7FD898169C10C15477 /* Pods_cyrano_renewalUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C6DEBE2B0E39EB8C189200C9 /* Pods_cyrano_renewalUITests.framework */; };
+		DE1CC767EC4DCEF4F028BBC9 /* Pods_cyrano_renewal.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EBF908A4DBAA1CB9B2808335 /* Pods_cyrano_renewal.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,9 +45,15 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1C490BAFC5A768A3D445A948 /* Pods-cyrano_renewalUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-cyrano_renewalUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-cyrano_renewalUITests/Pods-cyrano_renewalUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		4C1EE73520C5834500E7D41B /* Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extension.swift; sourceTree = "<group>"; };
+		4C1EE73820C583A200E7D41B /* NetworkCallback.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetworkCallback.swift; sourceTree = "<group>"; };
+		4C1EE73B20C5842800E7D41B /* NetworkModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkModel.swift; sourceTree = "<group>"; };
+		4C1EE73D20C5844C00E7D41B /* LoginModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginModel.swift; sourceTree = "<group>"; };
+		4C1EE74220C5848300E7D41B /* LoginMessageVO.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginMessageVO.swift; sourceTree = "<group>"; };
+		4C1EE74420C584AC00E7D41B /* LoginResultVO.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginResultVO.swift; sourceTree = "<group>"; };
 		4CB54A8920C2E10F00910BC1 /* cyrano_renewal.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = cyrano_renewal.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4CB54A8C20C2E10F00910BC1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		4CB54A8E20C2E10F00910BC1 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		4CB54A9120C2E10F00910BC1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		4CB54A9420C2E10F00910BC1 /* cyrano_renewal.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = cyrano_renewal.xcdatamodel; sourceTree = "<group>"; };
 		4CB54A9620C2E11100910BC1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -49,6 +65,16 @@
 		4CB54AAB20C2E11100910BC1 /* cyrano_renewalUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = cyrano_renewalUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4CB54AAF20C2E11100910BC1 /* cyrano_renewalUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = cyrano_renewalUITests.swift; sourceTree = "<group>"; };
 		4CB54AB120C2E11100910BC1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4CB54ABF20C2E5D400910BC1 /* Login.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Login.storyboard; sourceTree = "<group>"; };
+		4CB54AC120C2E5F300910BC1 /* LoginVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginVC.swift; sourceTree = "<group>"; };
+		595130607BB55E0C3477EF6C /* Pods-cyrano_renewalTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-cyrano_renewalTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-cyrano_renewalTests/Pods-cyrano_renewalTests.debug.xcconfig"; sourceTree = "<group>"; };
+		5A197C2DBFAB9721904A129D /* Pods-cyrano_renewal.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-cyrano_renewal.release.xcconfig"; path = "Pods/Target Support Files/Pods-cyrano_renewal/Pods-cyrano_renewal.release.xcconfig"; sourceTree = "<group>"; };
+		8894A70A9B2027973EB24499 /* Pods-cyrano_renewalTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-cyrano_renewalTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-cyrano_renewalTests/Pods-cyrano_renewalTests.release.xcconfig"; sourceTree = "<group>"; };
+		A5774D7902505F833378007B /* Pods_cyrano_renewalTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_cyrano_renewalTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B2528F7C4113F3254608380F /* Pods-cyrano_renewalUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-cyrano_renewalUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-cyrano_renewalUITests/Pods-cyrano_renewalUITests.release.xcconfig"; sourceTree = "<group>"; };
+		B968B9491C1986BF59F2700E /* Pods-cyrano_renewal.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-cyrano_renewal.debug.xcconfig"; path = "Pods/Target Support Files/Pods-cyrano_renewal/Pods-cyrano_renewal.debug.xcconfig"; sourceTree = "<group>"; };
+		C6DEBE2B0E39EB8C189200C9 /* Pods_cyrano_renewalUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_cyrano_renewalUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		EBF908A4DBAA1CB9B2808335 /* Pods_cyrano_renewal.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_cyrano_renewal.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +82,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DE1CC767EC4DCEF4F028BBC9 /* Pods_cyrano_renewal.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +90,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				464537161D81FC4670E72F89 /* Pods_cyrano_renewalTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -70,12 +98,60 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7317AC7FD898169C10C15477 /* Pods_cyrano_renewalUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3C5DD37B896B36CB6A745B82 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B968B9491C1986BF59F2700E /* Pods-cyrano_renewal.debug.xcconfig */,
+				5A197C2DBFAB9721904A129D /* Pods-cyrano_renewal.release.xcconfig */,
+				595130607BB55E0C3477EF6C /* Pods-cyrano_renewalTests.debug.xcconfig */,
+				8894A70A9B2027973EB24499 /* Pods-cyrano_renewalTests.release.xcconfig */,
+				1C490BAFC5A768A3D445A948 /* Pods-cyrano_renewalUITests.debug.xcconfig */,
+				B2528F7C4113F3254608380F /* Pods-cyrano_renewalUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		4C1EE73420C5832000E7D41B /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				4C1EE73B20C5842800E7D41B /* NetworkModel.swift */,
+				4C1EE73D20C5844C00E7D41B /* LoginModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		4C1EE73720C5839000E7D41B /* Protocol */ = {
+			isa = PBXGroup;
+			children = (
+				4C1EE73820C583A200E7D41B /* NetworkCallback.swift */,
+			);
+			path = Protocol;
+			sourceTree = "<group>";
+		};
+		4C1EE73A20C583C800E7D41B /* VO */ = {
+			isa = PBXGroup;
+			children = (
+				4C1EE73F20C5845C00E7D41B /* Login */,
+			);
+			path = VO;
+			sourceTree = "<group>";
+		};
+		4C1EE73F20C5845C00E7D41B /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				4C1EE74220C5848300E7D41B /* LoginMessageVO.swift */,
+				4C1EE74420C584AC00E7D41B /* LoginResultVO.swift */,
+			);
+			path = Login;
+			sourceTree = "<group>";
+		};
 		4CB54A8020C2E10F00910BC1 = {
 			isa = PBXGroup;
 			children = (
@@ -83,6 +159,8 @@
 				4CB54AA320C2E11100910BC1 /* cyrano_renewalTests */,
 				4CB54AAE20C2E11100910BC1 /* cyrano_renewalUITests */,
 				4CB54A8A20C2E10F00910BC1 /* Products */,
+				3C5DD37B896B36CB6A745B82 /* Pods */,
+				69E99C52C88A39ECBB01A8CA /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -100,10 +178,13 @@
 			isa = PBXGroup;
 			children = (
 				4CB54A8C20C2E10F00910BC1 /* AppDelegate.swift */,
-				4CB54A8E20C2E10F00910BC1 /* ViewController.swift */,
-				4CB54A9020C2E10F00910BC1 /* Main.storyboard */,
+				4C1EE73520C5834500E7D41B /* Extension.swift */,
 				4CB54A9620C2E11100910BC1 /* Assets.xcassets */,
-				4CB54A9820C2E11100910BC1 /* LaunchScreen.storyboard */,
+				4C1EE73720C5839000E7D41B /* Protocol */,
+				4C1EE73420C5832000E7D41B /* Model */,
+				4C1EE73A20C583C800E7D41B /* VO */,
+				4CB54ABE20C2E4EA00910BC1 /* VC */,
+				4CB54ABD20C2E49400910BC1 /* Storyboard */,
 				4CB54A9B20C2E11100910BC1 /* Info.plist */,
 				4CB54A9320C2E10F00910BC1 /* cyrano_renewal.xcdatamodeld */,
 			);
@@ -128,6 +209,42 @@
 			path = cyrano_renewalUITests;
 			sourceTree = "<group>";
 		};
+		4CB54ABD20C2E49400910BC1 /* Storyboard */ = {
+			isa = PBXGroup;
+			children = (
+				4CB54A9820C2E11100910BC1 /* LaunchScreen.storyboard */,
+				4CB54ABF20C2E5D400910BC1 /* Login.storyboard */,
+				4CB54A9020C2E10F00910BC1 /* Main.storyboard */,
+			);
+			path = Storyboard;
+			sourceTree = "<group>";
+		};
+		4CB54ABE20C2E4EA00910BC1 /* VC */ = {
+			isa = PBXGroup;
+			children = (
+				4CB54AC320C2E5F600910BC1 /* Login */,
+			);
+			path = VC;
+			sourceTree = "<group>";
+		};
+		4CB54AC320C2E5F600910BC1 /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				4CB54AC120C2E5F300910BC1 /* LoginVC.swift */,
+			);
+			path = Login;
+			sourceTree = "<group>";
+		};
+		69E99C52C88A39ECBB01A8CA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				EBF908A4DBAA1CB9B2808335 /* Pods_cyrano_renewal.framework */,
+				A5774D7902505F833378007B /* Pods_cyrano_renewalTests.framework */,
+				C6DEBE2B0E39EB8C189200C9 /* Pods_cyrano_renewalUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -135,9 +252,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 4CB54AB420C2E11100910BC1 /* Build configuration list for PBXNativeTarget "cyrano_renewal" */;
 			buildPhases = (
+				8C3B38663AAD92CFB4AB20DB /* [CP] Check Pods Manifest.lock */,
 				4CB54A8520C2E10F00910BC1 /* Sources */,
 				4CB54A8620C2E10F00910BC1 /* Frameworks */,
 				4CB54A8720C2E10F00910BC1 /* Resources */,
+				6244FAC8DE32953EB3418A6B /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -152,6 +271,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 4CB54AB720C2E11100910BC1 /* Build configuration list for PBXNativeTarget "cyrano_renewalTests" */;
 			buildPhases = (
+				8E506498924AB11046731450 /* [CP] Check Pods Manifest.lock */,
 				4CB54A9C20C2E11100910BC1 /* Sources */,
 				4CB54A9D20C2E11100910BC1 /* Frameworks */,
 				4CB54A9E20C2E11100910BC1 /* Resources */,
@@ -170,6 +290,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 4CB54ABA20C2E11100910BC1 /* Build configuration list for PBXNativeTarget "cyrano_renewalUITests" */;
 			buildPhases = (
+				0E5A9206C5B4A84ABB1EC723 /* [CP] Check Pods Manifest.lock */,
 				4CB54AA720C2E11100910BC1 /* Sources */,
 				4CB54AA820C2E11100910BC1 /* Frameworks */,
 				4CB54AA920C2E11100910BC1 /* Resources */,
@@ -232,6 +353,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4CB54AC020C2E5D400910BC1 /* Login.storyboard in Resources */,
 				4CB54A9A20C2E11100910BC1 /* LaunchScreen.storyboard in Resources */,
 				4CB54A9720C2E11100910BC1 /* Assets.xcassets in Resources */,
 				4CB54A9220C2E10F00910BC1 /* Main.storyboard in Resources */,
@@ -254,14 +376,103 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		0E5A9206C5B4A84ABB1EC723 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-cyrano_renewalUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6244FAC8DE32953EB3418A6B /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-cyrano_renewal/Pods-cyrano_renewal-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/AlamofireObjectMapper/AlamofireObjectMapper.framework",
+				"${BUILT_PRODUCTS_DIR}/Kingfisher/Kingfisher.framework",
+				"${BUILT_PRODUCTS_DIR}/ObjectMapper/ObjectMapper.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftyJSON/SwiftyJSON.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AlamofireObjectMapper.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Kingfisher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ObjectMapper.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyJSON.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-cyrano_renewal/Pods-cyrano_renewal-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8C3B38663AAD92CFB4AB20DB /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-cyrano_renewal-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8E506498924AB11046731450 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-cyrano_renewalTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		4CB54A8520C2E10F00910BC1 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4C1EE74520C584AC00E7D41B /* LoginResultVO.swift in Sources */,
+				4C1EE73C20C5842800E7D41B /* NetworkModel.swift in Sources */,
+				4C1EE73E20C5844C00E7D41B /* LoginModel.swift in Sources */,
+				4C1EE74320C5848300E7D41B /* LoginMessageVO.swift in Sources */,
+				4C1EE73920C583A200E7D41B /* NetworkCallback.swift in Sources */,
 				4CB54A9520C2E10F00910BC1 /* cyrano_renewal.xcdatamodeld in Sources */,
-				4CB54A8F20C2E10F00910BC1 /* ViewController.swift in Sources */,
 				4CB54A8D20C2E10F00910BC1 /* AppDelegate.swift in Sources */,
+				4CB54AC220C2E5F300910BC1 /* LoginVC.swift in Sources */,
+				4C1EE73620C5834500E7D41B /* Extension.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -367,7 +578,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -421,8 +632,9 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
+				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
 				SWIFT_COMPILATION_MODE = wholemodule;
 				SWIFT_OPTIMIZATION_LEVEL = "-O";
@@ -432,11 +644,13 @@
 		};
 		4CB54AB520C2E11100910BC1 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B968B9491C1986BF59F2700E /* Pods-cyrano_renewal.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 86PPC52X64;
 				INFOPLIST_FILE = cyrano_renewal/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -450,17 +664,20 @@
 		};
 		4CB54AB620C2E11100910BC1 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5A197C2DBFAB9721904A129D /* Pods-cyrano_renewal.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 86PPC52X64;
 				INFOPLIST_FILE = cyrano_renewal/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.godp.cyrano-renewal";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -468,6 +685,7 @@
 		};
 		4CB54AB820C2E11100910BC1 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 595130607BB55E0C3477EF6C /* Pods-cyrano_renewalTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -489,6 +707,7 @@
 		};
 		4CB54AB920C2E11100910BC1 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8894A70A9B2027973EB24499 /* Pods-cyrano_renewalTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -510,6 +729,7 @@
 		};
 		4CB54ABB20C2E11100910BC1 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1C490BAFC5A768A3D445A948 /* Pods-cyrano_renewalUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -530,6 +750,7 @@
 		};
 		4CB54ABC20C2E11100910BC1 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B2528F7C4113F3254608380F /* Pods-cyrano_renewalUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
